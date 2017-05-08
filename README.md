@@ -11,9 +11,9 @@ The basics of creating the PID are very easy, you use the error in the P, or pro
 
 I chose to manually tune the PID.  First I raised the P term to the point of instability, and then gradually increased the D term to make the car stable.  I don't think that an I term was necessary, but I introduced a small I term in case the car has non-centered steering.
 
-For fun, I also introduced a PID for the speed control.  I keep the car at a constant speed of 
+For fun, I also introduced a PID for the speed control to keep the car at a constant speed of 25 mph. I used similar tuning techniques for the speed PID.
 
-The final submission is able to keep on the road without hitting the sides, but it isn't as smooth as I would hope it to be, and it isn't able to reach stability at 100 mph.  I ended up liking the output at 25 mph, much above that, it isn't as smooth, and finally it becomes unstable.
+The final submission is able to keep on the road without hitting the sides, but it isn't as smooth as I hoped it would be, and it isn't able to reach stability at 100 mph.  I ended up liking the output at 25 mph, much above that, it isn't as smooth, and finally it becomes unstable.
 
 You can see video of the simulator at https://www.youtube.com/watch?v=LWYJzUif5M0
 
